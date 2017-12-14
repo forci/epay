@@ -37,22 +37,12 @@ class EpayClient {
     const PAYMENT_CHECKSUM_KEY = 'checksum';
     const PAYMENT_ENCODED_KEY = 'encoded';
 
-    /**
-     * @var ClientOptions
-     */
+    /** @var ClientOptions */
     protected $options;
 
-    /**
-     * @var PaymentHandlerInterface
-     */
+    /** @var PaymentHandlerInterface */
     protected $handler;
 
-    /**
-     * EpayClient constructor.
-     *
-     * @param ClientOptions           $options
-     * @param PaymentHandlerInterface $handler
-     */
     public function __construct(ClientOptions $options, PaymentHandlerInterface $handler) {
         $this->options = $options;
         $this->handler = $handler;
