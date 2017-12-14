@@ -2,7 +2,7 @@
     "name": "forci/epay",
     "type": "library",
     "description": "Library for epay.bg",
-    "keywords": ["wucdbm", "epay", "epay.bg", "library"],
+    "keywords": ["forci", "wucdbm", "epay", "epay.bg", "library"],
     "authors": [
         {
             "name": "Martin Kirilov",
