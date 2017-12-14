@@ -148,7 +148,7 @@ DATA;
         if (0 === strpos($body, 'IDN=')) {
             $idn = str_replace('IDN=', '', $body);
 
-            return new EasyPayResponse($body, $idn, '', false);
+            return new EasyPayResponse($body, $idn);
         }
 
         throw new EasyPayGetIdnError($body);
