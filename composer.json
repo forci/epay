@@ -1,0 +1,28 @@
+{
+    "name": "forci/epay",
+    "type": "library",
+    "description": "Library for epay.bg",
+    "keywords": ["wucdbm", "epay", "epay.bg", "library"],
+    "authors": [
+        {
+            "name": "Martin Kirilov",
+            "email": "wucdbm@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "symfony/options-resolver": "~3.0|~4.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.8",
+        "wucdbm/php-cs-fixers": "~0.1"
+    },
+    "autoload": {
+        "psr-4": { "Forci\\Component\\Epay\\": "src" }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "license": "GPL-2.0"
+}
